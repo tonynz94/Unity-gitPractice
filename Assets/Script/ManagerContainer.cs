@@ -8,6 +8,7 @@ public class ManagerContainer : MonoBehaviour
     public static ManagerContainer Instance { get { Init(); return s_Instance; } }
 
     int num = 10;
+    bool DD = true;
 
     public static void Init()
     { 
