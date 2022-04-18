@@ -6,7 +6,8 @@ public class ManagerContainer : MonoBehaviour
 {
     public static ManagerContainer s_Instance;
     public static ManagerContainer Instance { get { Init(); return s_Instance; } }
-
+    
+    bool hello = true;
 
     public static void Init()
     { 
