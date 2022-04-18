@@ -7,6 +7,7 @@ public class ManagerContainer : MonoBehaviour
     public static ManagerContainer s_Instance;
     public static ManagerContainer Instance { get { Init(); return s_Instance; } }
 
+    int num = 10;
 
     public static void Init()
     { 
