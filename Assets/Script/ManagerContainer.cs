@@ -27,4 +27,9 @@ public class ManagerContainer : MonoBehaviour
             DontDestroyOnLoad(go);
         }
     }
+    
+    public void Hello()
+    {
+        Debug.Log("Hello");
+    }
 }
