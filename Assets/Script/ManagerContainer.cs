@@ -9,13 +9,15 @@ public class ManagerContainer : MonoBehaviour
 
     int num = 10;
     bool DD = true;
+    
+    int nn = 10;
 
     public static void Init()
     { 
         if(s_Instance == null)
         {
             GameObject go =GameObject.Find("@ManagerContainer");
-
+            
             if(go == null)
             {
                 go = new GameObject { name = "@ManagerContainer" };
